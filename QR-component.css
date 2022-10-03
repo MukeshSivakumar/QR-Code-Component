@@ -24,12 +24,12 @@ body {
      /* width : 20% ; */
      min-width: 288px;
      max-width: 288px;
-     height : 60%;
+     height : 55%;
      min-height : 480px;
      max-height : 480px;
      display : flex;
      flex-direction: column;
-     padding : 1.25rem;
+     padding : 1rem;
      border-radius: 1.5rem;
 }
 
@@ -60,7 +60,7 @@ body {
 .content-1 {
     font-weight : 700;
     color : var(--Dark_blue);
-    font-size: 1.30rem;
+    font-size: 1.25rem;
     letter-spacing: 1px;
     padding : 1rem 1rem 0rem 1rem;
     text-shadow: 0.5px 0px 0.5px var(--Dark_blue);
