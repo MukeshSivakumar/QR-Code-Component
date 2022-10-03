@@ -1,0 +1,73 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light_gray: hsl(212, 45%, 89%);
+    --Grayish_blue: hsl(220, 15%, 55%);
+    --Dark_blue: hsl(218, 44%, 22%); 
+}
+
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    width : 100vw;
+    height : 100vh;
+    background: var(--Light_gray);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+     background-color: var(--White);
+     /* width : 20% ; */
+     min-width: 288px;
+     max-width: 288px;
+     height : 60%;
+     min-height : 480px;
+     max-height : 480px;
+     display : flex;
+     flex-direction: column;
+     padding : 1.25rem;
+     border-radius: 1.5rem;
+}
+
+.qr-container {
+    flex : 4;
+    background-image: url(images/image-qr-code.png);
+    width : 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.content-container {
+    flex : 2.5;
+    width : 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: start; */
+    font-size : 1rem;
+}
+
+.content-container div {
+    font-family: 'Outfit', sans-serif;
+    text-align:center;
+}
+
+.content-1 {
+    font-weight : 700;
+    color : var(--Dark_blue);
+    font-size: 1.30rem;
+    letter-spacing: 1px;
+    padding : 1rem 1rem 0rem 1rem;
+    text-shadow: 0.5px 0px 0.5px var(--Dark_blue);
+}
+
+.content-2 {
+    font-weight : 400;
+    color : var(--Grayish_blue);
+    padding : 0.8rem 0.5rem 0.5rem 0.5rem;
+}
