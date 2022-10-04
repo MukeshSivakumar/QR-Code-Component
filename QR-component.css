@@ -24,9 +24,9 @@ body {
      /* width : 20% ; */
      min-width: 288px;
      max-width: 288px;
-     height : 57%;
-     min-height : 445px;
-     max-height : 445px;
+     height : 52%;
+     min-height : 440px;
+     max-height : 440px;
      display : flex;
      flex-direction: column;
      padding : 1rem;
@@ -48,7 +48,7 @@ body {
     display : flex;
     flex-direction: column;
     justify-content: center;
-    /* align-content: start; */
+    /* align-items: flex-end; */
     font-size : 1rem;
 }
 
@@ -61,7 +61,7 @@ body {
     color : var(--Dark_blue);
     font-size: 1.25rem;
     letter-spacing: 1px;
-    padding : 1rem 1rem 0rem 1rem;
+    padding : 0.5rem 0.5rem 0rem 0.5rem;
     text-shadow: 0.5px 0px 0.5px var(--Dark_blue);
     text-align: center;
 }
@@ -69,6 +69,6 @@ body {
 .content-2 {
     font-weight : 400;
     color : var(--Grayish_blue);
-    padding : 1rem 0.5rem 0.5rem 0.5rem;
+    padding : 0.5rem;
     text-align: center;
 }
