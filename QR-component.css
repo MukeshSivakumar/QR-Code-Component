@@ -24,7 +24,7 @@ body {
      /* width : 20% ; */
      min-width: 288px;
      max-width: 288px;
-     height : 52%;
+     height : 55%;
      min-height : 440px;
      max-height : 440px;
      display : flex;
@@ -69,6 +69,6 @@ body {
 .content-2 {
     font-weight : 400;
     color : var(--Grayish_blue);
-    padding : 0.5rem;
+    padding : 1rem;
     text-align: center;
 }
