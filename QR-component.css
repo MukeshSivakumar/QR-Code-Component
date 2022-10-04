@@ -25,8 +25,8 @@ body {
      min-width: 288px;
      max-width: 288px;
      height : 57%;
-     min-height : 456px;
-     max-height : 456px;
+     min-height : 445px;
+     max-height : 445px;
      display : flex;
      flex-direction: column;
      padding : 1rem;
